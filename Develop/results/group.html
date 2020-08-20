@@ -1,24 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>My Team</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <script src="https://kit.fontawesome.com/c502137733.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 jumbotron mb-3 team-heading" style="background-color: rgb(200, 212, 240);">
-                <h1 class="text-center">Group Employees</h1>
-            </div>
+      <div class="row">
+        <div
+          class="col-12 jumbotron mb-3 team-heading"
+          style="background-color: rgb(200, 212, 240);"
+        >
+          <h1 class="text-center">Group Employees</h1>
         </div>
+      </div>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="team-area col-12 d-flex justify-content-around flex-wrap">
+      <div class="row">
+        <div class="team-area col-12 d-flex justify-content-around flex-wrap">
+          <div
+            class="card employee-card"
+            style="
+              box-shadow: 8px 12px lightslategrey;
+              margin: 4%;
+              width: 310px;
+            "
+          >
+            <div
+              class="card-header text-center"
+              style="background-color: rgb(200, 212, 240);"
+            >
+              <h2 class="card-title">Chandler</h2>
+              <h3 class="card-title">
+                <i class="fas fa-mug-hot mr-2"></i> Manager
+              </h3>
+            </div>
+            <div class="card-body">
+              <ul class="list-group">
+                <li class="list-group-item">ID: 01</li>
+                <li class="list-group-item">
+                  Email:
+                  <a href="mailto:chander.lowrance1@gmail.com"
+                    >chander.lowrance1@gmail.com</a
+                  >
+                </li>
+                <li class="list-group-item">
+                  Office number:
+                  <a
+                    href="https://media.giphy.com/media/dsKnRuALlWsZG/source.gif"
+                    target="_blank"
+                    >11 (open for lol)</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="card employee-card"
+            style="
+              box-shadow: 8px 12px lightslategrey;
+              margin: 4%;
+              width: 310px;
+            "
+          >
+            <div
+              class="card-header text-center"
+              style="background-color: rgb(200, 212, 240);"
+            >
+              <h2 class="card-title text-center">Erika</h2>
+              <h3 class="card-title">
+                <i class="fas fa-glasses mr-2"></i> Engineer
+              </h3>
+            </div>
+            <div class="card-body">
+              <ul class="list-group">
+                <li class="list-group-item">ID: 02</li>
+                <li class="list-group-item">
+                  Email:
+                  <a href="mailto:{{ email }}">erika.beasley@beasley.com</a>
+                </li>
+                <li class="list-group-item">
+                  GitHub:
+                  <a href="https://github.com/erikabeasley" target="_blank"
+                    >erikabeasley</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="card employee-card"
+            style="
+              box-shadow: 8px 12px lightslategrey;
+              margin: 4%;
+              width: 310px;
+            "
+          >
+            <div
+              class="card-header text-center"
+              style="background-color: rgb(200, 212, 240);"
+            >
+              <h2 class="card-title text-center">Jacob</h2>
+              <h3 class="card-title">
+                <i class="fas fa-glasses mr-2"></i> Engineer
+              </h3>
+            </div>
+            <div class="card-body">
+              <ul class="list-group">
+                <li class="list-group-item">ID: 03</li>
+                <li class="list-group-item">
+                  Email: <a href="mailto:{{ email }}">lovins.jacob@yahoo.com</a>
+                </li>
+                <li class="list-group-item">
+                  GitHub:
+                  <a href="https://github.com/jacoblovins" target="_blank"
+                    >jacoblovins</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="card employee-card"
+            style="
+              box-shadow: 8px 12px lightslategrey;
+              margin: 4%;
+              width: 310px;
+            "
+          >
+            <div
+              class="card-header text-center"
+              style="background-color: rgb(200, 212, 240);"
+            >
+              <h2 class="card-title text-center">Logan</h2>
+              <h3 class="card-title">
+                <i class="fas fa-glasses mr-2"></i> Engineer
+              </h3>
+            </div>
+            <div class="card-body">
+              <ul class="list-group">
+                <li class="list-group-item">ID: 04</li>
+                <li class="list-group-item">
+                  Email: <a href="mailto:{{ email }}">logan@gmail.com</a>
+                </li>
+                <li class="list-group-item">
+                  GitHub:
+                  <a href="https://github.com/lrminer" target="_blank"
+                    >lrminer</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="card employee-card"
+            style="
+              box-shadow: 8px 12px lightslategrey;
+              margin: 4%;
+              width: 310px;
+            "
+          >
+            <div
+              class="card-header text-center"
+              style="background-color: rgb(200, 212, 240);"
+            >
+              <h2 class="card-title">Chan jr.</h2>
+              <h3 class="card-title">
+                <i class="fas fa-user-graduate mr-2"></i> Intern
+              </h3>
+            </div>
+            <div class="card-body">
+              <ul class="list-group">
+                <li class="list-group-item">ID: 05</li>
+                <li class="list-group-item">
+                  Email:
+                  <a href="mailto:CBL0015@auburn.edu">CBL0015@auburn.edu</a>
+                </li>
+                <li class="list-group-item">
+                  School:
+                  <a href="https://www.auburn.edu/" target="_blank">Auburn</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
